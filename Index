@@ -1,0 +1,27 @@
+<html>
+    <head>
+    </head>
+        <title>Turkish Airlines</title>
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="C:\Users\SHREE\Desktop\airlines_logo.png"> 
+                </div>
+                <ul class="nav-area">
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SIMULATORS</a></li>
+                    <li><a href="#">TRAINING</a></li>
+                    <li><a href="#">SCHEDULE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="text">
+                <h1>ARE YOU<br>READY FOR<br>TAKE OFF?</h1>
+                <p>Are you Ready For Take off and flight with Turkish Airlines own trainging centre</p>
+            </div>
+            <a href="#">LEARN MORE</a>
+            <a href="#">E-REGESTRATION</a>
+        </header>>
+    </body>    
+</html>

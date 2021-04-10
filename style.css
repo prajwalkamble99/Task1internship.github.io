@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.class1{
+    width: 100%;
+    height: 80vh;
+    background:url(immg.jpg);
+    baground-size: cover;
+    baground-position: ceter;
+
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items:center;
+    justify-content:  space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-display: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #FFFFFF;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width:100%
+}
+
+.content{
+    left:10%;
+    width:100%;
+    positiom:absolute;
+    padding-left: 125px;
+    top:30%;
+    transform:translateY(-50%);
+    text-align:left;
+}
+
+.content h1{
+    font-size:65px;
+    margin-top:270px;
+    text-align:left;
+}
+
+.content p{
+    margin:20px auto;
+    position: absolute;
+    left:10px
+    padding-left:23px;
+    font-size:25px;
+}
+
+.buttons{
+    text-align:center;
+    padding-top:50px;
+}
+.btn_div button{
+    background:#FF1493;
+    outline:none;
+    border:1px solid #FF1493;
+    padding: 10px 20px;
+    color:#fff;
+    font-size:17px;
+    cursor:pointer;
+    border-radius:50px;
+}
+.class2{
+    width: 100%;
+    height: 80vh;
+    background:url(class2.png);
+    baground-size: cover;
+    baground-position: ceter;
+}    
+.png1{
+    position:relative;
+    top:300px;
+}
+.class3{
+    width: 100%;
+    height: 52vh;
+    background:url(class3.jpg);
+    baground-size: cover;
+    baground-position: ceter;
+}
+.button2{
+    text-align:center;
+    padding-top:50px;
+}
+.btn2_div button{
+    background:#FF1493;
+    outline:none;
+    border:1px solid #FF1493;
+    padding: 10px 20px;
+    color:#fff;
+    font-size:17px;
+    cursor:pointer;
+    border-radius:50px;
+}
+.class5{
+    width: 100%;
+    height: 55vh;
+    background:url(class2.png);
+    baground-size: cover;
+    baground-position: ceter;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1370px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 19%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    display:inline-block;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.footer_logo{
+    width: 10px;
+    cursor: pointer;
+}
+.bottomright {
+  position: relative;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.content2{
+    position:relative;
+    top:19%;
+}
+.container2{
+    position:relative;
+    top: 53%;
+    max-width: 1370px;
+    margin:auto;
+}    
+.row2{
+    margin:10%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.c1{
+   width: 24%;
+   padding: 0 15px;
+}    
